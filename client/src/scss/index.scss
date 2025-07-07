@@ -1,0 +1,54 @@
+$primary-color: #ffffff;
+
+body {
+  background-color: $primary-color;
+}
+
+.custom-card-title {
+  color: $primary-color !important;
+}
+
+.custom-card-title-dark {
+  color: black !important;
+}
+
+.header-icon {
+  position: absolute;
+  right: 25px;
+  top: 0px;
+  font-size: 2.5rem;
+}
+
+.custom-header-logo {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+
+.custom-nav {
+  background-color: $primary-color;
+}
+
+.btn-selected {
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  padding: 8px;
+  transition: transform 0.3s;
+}
+
+.collection .collection-item {
+  background-color: #fff !important;
+  color: #4b5563 !important;
+}
+
+.collection .collection-item.active {
+  background-color: #4b5563 !important;
+  color: #fff !important;
+}
+
+input[type="checkbox"]:checked + span:not(.lever)::before {
+  border: 2px solid transparent;
+  border-bottom: 2px solid #d60021;
+  border-right: 2px solid #d60021;
+  background: transparent;
+}
